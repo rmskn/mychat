@@ -1,0 +1,15 @@
+.username {
+  color: var(--primary-text-color);
+
+  &_main {
+    font-size: 24px;
+  }
+
+  &_thread {
+    font-size: 18px;
+  }
+
+  &_chat {
+    font-size: 24px;
+  }
+}

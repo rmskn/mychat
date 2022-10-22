@@ -1,0 +1,27 @@
+.send-message-form {
+  display: flex;
+  padding: 10px 10px;
+  align-items: center;
+  gap: 10px;
+
+  &__input {
+    &_file {
+      display: none;
+    }
+
+    &_text {
+      font-size: 18px;
+      flex: 1;
+      background: var(--primary-input-message-background-color);
+      padding: 10px 20px;
+      border-radius: 20px;
+      color: var(--primary-text-color);
+      outline: none;
+      border: 2px solid transparent;
+
+      &:focus {
+        border: 2px solid var(--primary-active);
+      }
+    }
+  }
+}

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+            integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap"
+            rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css"/>
+    <title>My Chat</title>
+</head>
+<body class="general-body">
+<main class="layout">
+    <section class="layout__threads threads box-scroll">
+        <header class="box-scroll__header header threads-header">
+            <ul class="threads-header__user-info user-info">
+                <li class="user-info__item username_main">
+                    <img class="user-info__avatar avatar" src="images/avatar.png" alt=""/>
+                </li>
+                <li class="user-info__item username_main">Tremaskin Kirill</li>
+                <li class="user-info__item">#2322</li>
+            </ul>
+            <button class="threads-header__setting-button button">
+                <img src="/images/settings-button.png" alt="avatar"/>
+            </button>
+            <div class="header__find-panel find-panel">
+                <img class="find-panel__icon" src="/images/search-button.png" alt=""/>
+                <label for="search-input"></label>
+                <input class="find-panel__input" type="text" id="search-input"/>
+            </div>
+        </header>
+        <ul class="box-scroll__content threads-list">
+            <li class="threads-list__item thread thread_focus">
+                <img src="/images/avatar.png" alt="avatar" class="thread__avatar avatar"/>
+                <div class="thread__inner inner-content">
+                    <span class="inner-content__item username_thread">Korzhov Alex</span>
+                    <span class="inner-content__item inner-content__item_recent">Recent message...</span>
+                </div>
+                <span class="thread__time">12:33</span>
+            </li>
+            <li class="threads-list__item thread">
+                <img src="/images/avatar.png" alt="avatar" class="thread__avatar avatar"/>
+                <div class="thread__inner inner-content">
+                    <span class="inner-content__item username_thread">Karpov Michael</span>
+                    <span class="inner-content__item">Recent message...</span>
+                </div>
+                <span class="thread__time">12:33</span>
+            </li>
+        </ul>
+    </section>
+    <section class="layout__chat chat-box box-scroll">
+        <header class="box-scroll__header chat-header header">
+            <img src="/images/avatar.png" alt="" class="chat-header__avatar avatar"/>
+            <span class="chat-header__username username_chat">Korzhov Alex</span>
+            <span class="chat-header__status chat-header__status_online">Online</span>
+        </header>
+        <div class="box-scroll__content" id="chat-box">
+            <div class="messages-list">
+                <div class="messages-list__message message message_to">
+                    <img class="message__avatar message__avatar_to avatar avatar_chat" src="/images/avatar.png" alt=""/>
+                    <div class="message__content message message__content_to">
+                        <p class="message__text">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Perspiciatis, voluptatibus error. Autem laborum sequi
+                            obcaecati eveniet laboriosam error modi odio eligendi ratione
+                            harum. Magni voluptatibus aut enim corrupti nostrum molestias
+                            praesentium ex porro temporibus alias est, architecto omnis
+                            quod quia culpa dolor! Nesciunt ratione sequi omnis deleniti.
+                            Modi unde, error minus et neque minima, perspiciatis beatae
+                            dolorum dolor consequuntur at enim nulla vero quo tempore
+                            dolorem. Pariatur voluptatibus sed ratione laborum odit in
+                            natus, totam sapiente quis consequuntur a dolor quae
+                            dignissimos, molestias accusamus, aliquid qui doloremque
+                            corrupti! Nesciunt esse minima eaque recusandae ea illum iusto
+                            nam dolor tempora id, pariatur at voluptate officiis, nostrum,
+                            repellendus adipisci vitae amet. Nihil neque excepturi, illo
+                            maiores iure esse saepe libero corrupti accusamus porro
+                            deserunt laudantium inventore aut dolore voluptates. Alias,
+                            reprehenderit reiciendis minima qui a tenetur similique
+                            provident, voluptate iusto, quam optio veritatis dolore
+                            obcaecati vel id at nemo maxime? Vel sapiente quibusdam
+                            laudantium, sed hic quaerat sit, porro voluptatem corrupti
+                            temporibus ipsam libero fuga quod magni ratione! Illo,
+                            suscipit? Sunt pariatur eligendi accusantium minus illum quas
+                            non sapiente odit voluptates. Tempore voluptatibus cum maiores
+                            eligendi inventore nemo obcaecati quibusdam aspernatur sit,
+                            commodi eveniet consequatur ex, unde officiis dolorem quo ab
+                            explicabo.
+                        </p>
+                        <span class="message__time">11:21</span>
+                    </div>
+                </div>
+                <div class="messages-list__message message message_from">
+                    <img class="message__avatar message__avatar_from avatar avatar_chat" src="/images/avatar.png"
+                         alt=""/>
+                    <div class="message__content message message__content_from">
+                        <p class="message__text">Привет как твои дела?</p>
+                        <span class="message__time">11:21</span>
+                    </div>
+                </div>
+                <div class="messages-list__message message message_from">
+                    <img class="message__avatar message__avatar_from avatar avatar_chat" src="/images/avatar.png"
+                         alt=""/>
+                    <div class="message__content message message__content_from">
+                        <p class="message__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+                            nostrum aut nam eaque veritatis quos, aliquid, molestiae
+                            repudiandae harum, numquam libero in id cumque nemo
+                            voluptatibus laboriosam illum. Quia quis consectetur molestiae
+                            modi fugiat, deleniti architecto? Obcaecati repudiandae
+                            praesentium dolorem!
+                        </p>
+                        <span class="message__time">11:21</span>
+                    </div>
+                </div>
+                <div class="messages-list__message message message_from">
+                    <img class="message__avatar message__avatar_from avatar avatar_chat" src="/images/avatar.png"
+                         alt=""/>
+                    <div class="message__content message message__content_from">
+                        <p class="message__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+                            nostrum aut nam eaque veritatis quos, aliquid, molestiae
+                            repudiandae harum, numquam libero in id cumque nemo
+                            voluptatibus laboriosam illum. Quia quis consectetur molestiae
+                            modi fugiat, deleniti architecto? Obcaecati repudiandae
+                            praesentium dolorem!
+                        </p>
+                        <span class="message__time">11:21</span>
+                    </div>
+                </div>
+                <div class="messages-list__message message message_from">
+                    <img class="message__avatar message__avatar_from avatar avatar_chat" src="/images/avatar.png"
+                         alt=""/>
+                    <div class="message__content message message__content_from">
+                        <p class="message__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+                            nostrum aut nam eaque veritatis quos, aliquid, molestiae
+                            repudiandae harum, numquam libero in id cumque nemo
+                            voluptatibus laboriosam illum. Quia quis consectetur molestiae
+                            modi fugiat, deleniti architecto? Obcaecati repudiandae
+                            praesentium dolorem!
+                        </p>
+                        <span class="message__time">11:21</span>
+                    </div>
+                </div>
+                <div class="messages-list__message message message_from">
+                    <img class="message__avatar message__avatar_from avatar avatar_chat" src="/images/avatar.png"
+                         alt=""/>
+                    <div class="message__content message message__content_from">
+                        <p class="message__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+                            nostrum aut nam eaque veritatis quos, aliquid, molestiae
+                            repudiandae harum, numquam libero in id cumque nemo
+                            voluptatibus laboriosam illum. Quia quis consectetur molestiae
+                            modi fugiat, deleniti architecto? Obcaecati repudiandae
+                            praesentium dolorem!
+                        </p>
+                        <span class="message__time">11:21</span>
+                    </div>
+                </div>
+                <div class="messages-list__message message message_from">
+                    <img class="message__avatar message__avatar_from avatar avatar_chat" src="/images/avatar.png"
+                         alt=""/>
+                    <div class="message__content message message__content_from">
+                        <p class="message__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+                            nostrum aut nam eaque veritatis quos, aliquid, molestiae
+                            repudiandae harum, numquam libero in id cumque nemo
+                            voluptatibus laboriosam illum. Quia quis consectetur molestiae
+                            modi fugiat, deleniti architecto? Obcaecati repudiandae
+                            praesentium dolorem!
+                        </p>
+                        <span class="message__time">11:21</span>
+                    </div>
+                </div>
+                <div class="messages-list__message message message_from">
+                    <img class="message__avatar message__avatar_message__avatar_from avatar avatar_chat"
+                         src="/images/avatar.png" alt=""/>
+                    <div class="message__content message message__content_from">
+                        <p class="message__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+                            nostrum aut nam eaque veritatis quos, aliquid, molestiae
+                            repudiandae harum, numquam libero in id cumque nemo
+                            voluptatibus laboriosam illum. Quia quis consectetur molestiae
+                            modi fugiat, deleniti architecto? Obcaecati repudiandae
+                            praesentium dolorem!
+                        </p>
+                        <span class="message__time">11:21</span>
+                    </div>
+                </div>
+                <div class="messages-list__message message message_from">
+                    <img class="message__avatar message__avatar_from avatar avatar_chat" src="/images/avatar.png"
+                         alt=""/>
+                    <div class="message__content message message__content_from">
+                        <p class="message__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+                            nostrum aut nam eaque veritatis quos, aliquid, molestiae
+                            repudiandae harum, numquam libero in id cumque nemo
+                            voluptatibus laboriosam illum. Quia quis consectetur molestiae
+                            modi fugiat, deleniti architecto? Obcaecati repudiandae
+                            praesentium dolorem!
+                        </p>
+                        <span class="message__time">11:21</span>
+                    </div>
+                </div>
+                <div class="messages-list__message message message_to">
+                    <img class="message__avatar message__avatar_to avatar avatar_chat" src="/images/avatar.png" alt=""/>
+                    <div class="message__content message message__content_to">
+                        <p class="message__text">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Perspiciatis, voluptatibus error. Autem laborum sequi
+                            obcaecati eveniet laboriosam error modi odio eligendi ratione
+                            harum. Magni voluptatibus aut enim corrupti nostrum molestias
+                            praesentium ex porro temporibus alias est, architecto omnis
+                            quod quia culpa dolor! Nesciunt ratione sequi omnis deleniti.
+                            Modi unde, error minus et neque minima, perspiciatis beatae
+                            dolorum dolor consequuntur at enim nulla vero quo tempore
+                            dolorem. Pariatur voluptatibus sed ratione laborum odit in
+                            natus, totam sapiente quis consequuntur a dolor quae
+                            dignissimos, molestias accusamus, aliquid qui doloremque
+                            corrupti! Nesciunt esse minima eaque recusandae ea illum iusto
+                            nam dolor tempora id, pariatur at voluptate officiis, nostrum,
+                            repellendus adipisci vitae amet. Nihil neque excepturi, illo
+                            maiores iure esse saepe libero corrupti accusamus porro
+                            deserunt laudantium inventore aut dolore voluptates. Alias,
+                            reprehenderit reiciendis minima qui a tenetur similique
+                            provident, voluptate iusto, quam optio veritatis dolore
+                            obcaecati vel id at nemo maxime? Vel sapiente quibusdam
+                            laudantium, sed hic quaerat sit, porro voluptatem corrupti
+                            temporibus ipsam libero fuga quod magni ratione! Illo,
+                            suscipit? Sunt pariatur eligendi accusantium minus illum quas
+                            non sapiente odit voluptates. Tempore voluptatibus cum maiores
+                            eligendi inventore nemo obcaecati quibusdam aspernatur sit,
+                            commodi eveniet consequatur ex, unde officiis dolorem quo ab
+                            explicabo.
+                        </p>
+                        <span class="message__time">11:21</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="box-scroll__footer chat-footer footer">
+            <form action="" class="chat-footer__form send-message-form form">
+                <label class="button" for="attach">
+                    <img src="/images/attach-button.png" alt="Attach"/>
+                </label>
+                <input
+                        class="send-message-form__input input send-message-form__input_file button"
+                        type="file"
+                        id="attach"
+                />
+<!--                <label for="main-input"></label>-->
+                <input
+                        class="send-message-form__input input send-message-form__input_text"
+                        type="text"
+                        id="main-input"
+                />
+                <button class="send-message-form__button button" type="submit">
+                    <img src="/images/send-button.png" alt="Send"/>
+                </button>
+            </form>
+        </footer>
+    </section>
+</main>
+<script type="text/javascript" src="/scripts/chat-scroll.js"></script>
+</body>
+</html>

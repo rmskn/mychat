@@ -1,0 +1,14 @@
+.chat-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: default;
+
+  &__status_online {
+    color: var(--primary-text-online-color);
+  }
+
+  &__status_offline {
+    color: var(--primary-text-offline-color);
+  }
+}
