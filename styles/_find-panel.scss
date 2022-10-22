@@ -3,7 +3,13 @@
   width: 100%;
   border-radius: 10px;
   padding: 4px 10px;
+
+  /*
+  https://ru.bem.info/methodology/quick-start/#%D0%91%D0%BB%D0%BE%D0%BA
+  Блок не должен влиять на свое окружение, т. е. блоку не следует задавать внешнюю геометрию (в виде отступов, границ, влияющих на размеры) и позиционирование.
+  */
   margin: 10px 0;
+
   display: flex;
   align-items: center;
   border: 2px solid transparent;

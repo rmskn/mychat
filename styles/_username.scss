@@ -6,7 +6,7 @@
   }
 
   &_thread {
-    font-size: 18px;
+    font-size: 18px;  // Советую вынести в переменные значения шрифтов. Например, --thread-username-font-size
   }
 
   &_chat {

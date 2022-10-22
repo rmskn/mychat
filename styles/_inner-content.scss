@@ -1,6 +1,10 @@
 .inner-content {
   display: flex;
   flex-direction: column;
+  /*
+    два свойства вместе используются довольно часто, как вариант, вынести их в класс 'column' и юзать где надо, чтобы не копипастить
+  */
+
   gap: 20px;
 
   &__item_recent {

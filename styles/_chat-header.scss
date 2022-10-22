@@ -11,4 +11,12 @@
   &__status_offline {
     color: var(--primary-text-offline-color);
   }
+
+  // Можно немного переписать, чтоб потом проще было
+  // ------------------
+  &__status {
+    &_online {}
+    &_offline {}
+  }
+  // ------------------
 }
