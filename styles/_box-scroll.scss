@@ -1,5 +1,5 @@
 ::-webkit-scrollbar {
-  width: 0px;
+  width: 0px; /*Если значение любого свойства 0, то единицы измерения можно не писать */
 }
 
 .box-scroll {
@@ -21,4 +21,6 @@
     background: var(--primary-color);
     color: var(--primary-text-color);
   }
+
+  /* Footer и Header идентичны, поэтому можно вынести их в один класс */
 }
