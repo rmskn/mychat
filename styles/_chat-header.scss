@@ -4,19 +4,13 @@
   gap: 10px;
   cursor: default;
 
-  &__status_online {
-    color: var(--primary-text-online-color);
-  }
-
-  &__status_offline {
-    color: var(--primary-text-offline-color);
-  }
-
-  // Можно немного переписать, чтоб потом проще было
-  // ------------------
   &__status {
-    &_online {}
-    &_offline {}
+    &_online {
+      color: var(--primary-text-online-color);
+    }
+
+    &_offline {
+      color: var(--primary-text-offline-color);
+    }
   }
-  // ------------------
 }

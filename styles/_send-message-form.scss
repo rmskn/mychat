@@ -10,7 +10,7 @@
     }
 
     &_text {
-      font-size: 18px;
+      font-size: var(--font-size-main);
       flex: 1;
       background: var(--primary-input-message-background-color);
       padding: 10px 20px;

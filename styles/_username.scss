@@ -2,14 +2,14 @@
   color: var(--primary-text-color);
 
   &_main {
-    font-size: 24px;
+    font-size: var(--font-size-large);
   }
 
   &_thread {
-    font-size: 18px;  // Советую вынести в переменные значения шрифтов. Например, --thread-username-font-size
+    font-size: var(--font-size-main);
   }
 
   &_chat {
-    font-size: 24px;
+    font-size: var(--font-size-large);
   }
 }

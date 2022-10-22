@@ -1,5 +1,6 @@
+@charset "UTF-8";
 ::-webkit-scrollbar {
-  width: 0px;
+  width: 0;
 }
 
 .box-scroll {
@@ -11,11 +12,7 @@
   flex: 1 1 auto;
   overflow-y: auto;
 }
-.box-scroll__header {
-  background: var(--primary-color);
-  color: var(--primary-text-color);
-}
-.box-scroll__footer {
+.box-scroll__edge-side {
   background: var(--primary-color);
   color: var(--primary-text-color);
 }
@@ -60,6 +57,10 @@
 .user-info {
   display: flex;
   list-style: none;
+  /*
+  https://ru.bem.info/methodology/quick-start/#%D0%91%D0%BB%D0%BE%D0%BA
+  Блок не должен влиять на свое окружение, т. е. блоку не следует задавать внешнюю геометрию (в виде отступов, границ, влияющих на размеры) и позиционирование.
+  */
   margin: 0;
   padding: 0;
   align-items: center;
@@ -72,6 +73,10 @@
   width: 100%;
   border-radius: 10px;
   padding: 4px 10px;
+  /*
+  https://ru.bem.info/methodology/quick-start/#%D0%91%D0%BB%D0%BE%D0%BA
+  Блок не должен влиять на свое окружение, т. е. блоку не следует задавать внешнюю геометрию (в виде отступов, границ, влияющих на размеры) и позиционирование.
+  */
   margin: 10px 0;
   display: flex;
   align-items: center;
@@ -81,7 +86,7 @@
   border: 2px solid var(--primary-active);
 }
 .find-panel__input {
-  font-size: 18px;
+  font-size: var(--font-size-main);
   width: 100%;
   outline: none;
   border: none;
@@ -89,6 +94,10 @@
 
 .threads-list {
   list-style: none;
+  /*
+  https://ru.bem.info/methodology/quick-start/#%D0%91%D0%BB%D0%BE%D0%BA
+  Блок не должен влиять на свое окружение, т. е. блоку не следует задавать внешнюю геометрию (в виде отступов, границ, влияющих на размеры) и позиционирование.
+  */
   margin: 0;
   padding: 0;
 }
@@ -109,16 +118,19 @@
 }
 
 .avatar {
-  border-radius: 50px;
+  border-radius: 50%;
   width: 48px;
 }
-.avatar_chat {
+.avatar_small {
   width: 24px;
 }
 
 .inner-content {
   display: flex;
   flex-direction: column;
+  /*
+    два свойства вместе используются довольно часто, как вариант, вынести их в класс 'column' и юзать где надо, чтобы не копипастить
+  */
   gap: 20px;
 }
 .inner-content__item_recent {
@@ -146,13 +158,13 @@
   color: var(--primary-text-color);
 }
 .username_main {
-  font-size: 24px;
+  font-size: var(--font-size-large);
 }
 .username_thread {
-  font-size: 18px;
+  font-size: var(--font-size-main);
 }
 .username_chat {
-  font-size: 24px;
+  font-size: var(--font-size-large);
 }
 
 .send-message-form {
@@ -165,7 +177,7 @@
   display: none;
 }
 .send-message-form__input_text {
-  font-size: 18px;
+  font-size: var(--font-size-main);
   flex: 1;
   background: var(--primary-input-message-background-color);
   padding: 10px 20px;
@@ -217,6 +229,11 @@
 }
 .message__content {
   cursor: default;
+  /*
+  Советую вынести всё что связанно с border-radius в отдельный класс, ну или хотя бы в переменную, если тебе понадобится
+  поменять радиус, тебе придется искать все места. В данном кейсе они близко, но не факт, что всё так и останется.
+  Лучше всегда сделать лишний класс, чем копиписастить
+  */
 }
 .message__content_to {
   background: var(--primary-message-backgroud-color);
@@ -244,6 +261,8 @@
   --primary-input-message-background-color: #494949;
   --primary-text-online-color: #07da07;
   --primary-text-offline-color: #8f8f8f;
+  --font-size-main: 18px;
+  --font-size-large: 24px;
 }
 
 /*# sourceMappingURL=style.css.map */
