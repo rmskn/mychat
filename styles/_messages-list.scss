@@ -1,6 +1,8 @@
+@import "mixins";
+
 .messages-list {
-  display: flex;
-  flex-direction: column;
+  @include column;
+
   width: 90%;
   margin: 0 auto;
 

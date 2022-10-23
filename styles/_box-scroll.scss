@@ -1,10 +1,12 @@
+@import "mixins";
+
 ::-webkit-scrollbar {
   width: 0;
 }
 
 .box-scroll {
-  display: flex;
-  flex-direction: column;
+  @include column;
+
   max-height: 100vh;
 
   &__content {

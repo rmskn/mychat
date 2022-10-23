@@ -1,11 +1,6 @@
 .user-info {
   display: flex;
   list-style: none;
-  /*
-  https://ru.bem.info/methodology/quick-start/#%D0%91%D0%BB%D0%BE%D0%BA
-  Блок не должен влиять на свое окружение, т. е. блоку не следует задавать внешнюю геометрию (в виде отступов, границ, влияющих на размеры) и позиционирование.
-  */
-  margin: 0;
   padding: 0;
   align-items: center;
   gap: 10px;

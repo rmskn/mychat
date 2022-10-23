@@ -1,3 +1,10 @@
 .threads-header {
-  justify-content: space-between; // Этот код будет бесполезен, если у родителя нет display: flex
+
+  &__user-info {
+    margin: 0;
+  }
+
+  &__find_panel {
+    margin: 10px 0;
+  }
 }

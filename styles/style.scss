@@ -1,5 +1,4 @@
 @import "box-scroll";
-@import "layout";
 @import "header";
 @import "user-info";
 @import "find-panel";
@@ -14,6 +13,8 @@
 @import "button";
 @import "messages-list";
 @import "message";
+@import "threads";
+@import "layout";
 
 :root {
   --primary-text-color: #ffffff;

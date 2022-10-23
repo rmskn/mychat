@@ -1,6 +1,8 @@
+@import "mixins";
+
 .message {
-  display: flex;
-  flex-direction: column;
+  @include column;
+
   padding: 10px 10px;
   gap: 5px;
 

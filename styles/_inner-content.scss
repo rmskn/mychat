@@ -1,9 +1,7 @@
+@import "mixins";
+
 .inner-content {
-  display: flex;
-  flex-direction: column;
-  /*
-    два свойства вместе используются довольно часто, как вариант, вынести их в класс 'column' и юзать где надо, чтобы не копипастить
-  */
+  @include column;
 
   gap: 20px;
 

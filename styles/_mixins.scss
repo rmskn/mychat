@@ -9,3 +9,8 @@
     @content;
   }
 }
+
+@mixin column {
+  display: flex;
+  flex-direction: column;
+}
