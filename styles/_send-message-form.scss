@@ -10,8 +10,9 @@
     }
 
     &_text {
+      width: 100%;
       font-size: var(--font-size-main);
-      flex: 1 1 auto;
+      flex: 1;
       background: var(--primary-input-message-background-color);
       padding: 10px 20px;
       border-radius: 20px;
@@ -23,9 +24,5 @@
         border: 2px solid var(--primary-active);
       }
     }
-  }
-
-  &__button {
-    flex-shrink: 1;
   }
 }
