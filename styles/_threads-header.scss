@@ -7,4 +7,10 @@
   &__find_panel {
     margin: 10px 0;
   }
+
+  &__settings-popup {
+    position: absolute;
+    top: 60px;
+    left: 270px;
+  }
 }

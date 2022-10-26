@@ -1,0 +1,11 @@
+.settings-list {
+  &__item {
+    cursor: pointer;
+    padding: 5px 0;
+    text-align: right;
+
+    &_red {
+      color: var(--primary-cancel-color);
+    }
+  }
+}

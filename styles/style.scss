@@ -14,6 +14,8 @@
 @import "messages-list";
 @import "message";
 @import "threads";
+@import "settings-popup";
+@import "settings-list";
 @import "layout";
 
 :root {
@@ -27,6 +29,7 @@
   --primary-input-message-background-color: #494949;
   --primary-text-online-color: #07da07;
   --primary-text-offline-color: #8f8f8f;
+  --primary-cancel-color: #ee4b2b;
   --font-size-main: 18px;
   --font-size-large: 24px;
 }

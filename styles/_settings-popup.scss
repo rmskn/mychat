@@ -1,0 +1,12 @@
+.settings-popup {
+  width: 80px;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+
+  &__list {
+    margin: 0;
+    padding: 10px;
+    list-style-type: none;
+  }
+
+}

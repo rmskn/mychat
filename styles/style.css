@@ -97,6 +97,11 @@
 .threads-header__find_panel {
   margin: 10px 0;
 }
+.threads-header__settings-popup {
+  position: absolute;
+  top: 60px;
+  left: 270px;
+}
 
 .chat-header {
   display: flex;
@@ -218,6 +223,26 @@
   margin: 0;
 }
 
+.settings-popup {
+  width: 80px;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+}
+.settings-popup__list {
+  margin: 0;
+  padding: 10px;
+  list-style-type: none;
+}
+
+.settings-list__item {
+  cursor: pointer;
+  padding: 5px 0;
+  text-align: right;
+}
+.settings-list__item_red {
+  color: var(--primary-cancel-color);
+}
+
 .general-body {
   overflow: hidden;
   margin: 0;
@@ -261,6 +286,7 @@
   --primary-input-message-background-color: #494949;
   --primary-text-online-color: #07da07;
   --primary-text-offline-color: #8f8f8f;
+  --primary-cancel-color: #ee4b2b;
   --font-size-main: 18px;
   --font-size-large: 24px;
 }
