@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ba06b353-068f-4e79-b94f-8d3c6cfe7258" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/attach-button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/chat-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/search-button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/send-button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/settings-button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/chat-scroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/settings-popup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_avatar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_box-scroll.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_button.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_chat-header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_find-panel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_inner-content.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_layout.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_message.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_messages-list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_send-message-form.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_settings-list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_settings-popup.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_thread.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_threads-header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_threads-list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_user-info.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_username.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/threads.scss" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GzOvmq5Leu9hgTGxl2FMxRnVsI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "javascript.nodejs.core.library.configured.version": "16.17.0",
+    "javascript.nodejs.core.library.typings.version": "16.18.3",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "D:\\Codemasters\\Frontend course 2022\\mychat\\mychat-angular\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Codemasters\Frontend course 2022\mychat\mychat-server" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba06b353-068f-4e79-b94f-8d3c6cfe7258" name="Changes" comment="" />
+      <created>1667388182051</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667388182051</updated>
+      <workItem from="1667388186095" duration="5423000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
