@@ -1,0 +1,29 @@
+@import "mixins";
+
+.layout {
+  display: grid;
+  height: 100vh;
+
+  &__chat {
+    background-image: url(/assets/images/chat-bg.png);
+  }
+
+  @include mobile {
+    &__threads {
+      display: none;
+    }
+  }
+
+  @include desktop {
+    grid-template-areas: "layout__threads layout__chat";
+    grid-template-columns: 380px 1fr;
+
+    &__threads {
+      grid-area: layout__threads;
+    }
+
+    &__chat {
+      grid-area: layout__chat;
+    }
+  }
+}

@@ -1,7 +1,8 @@
 const app = require('express')();
 const http = require('http').createServer(app);
-const { Server } = require('socket.io');
-const io = new Server(http);
+const io = require('socket.io')(http, {
+    cors: {}
+});
 
 app.get('/', (req, res) => res.send('Hello Test Server!'));
 

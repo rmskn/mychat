@@ -1,3 +1,3 @@
-# Онлайн-чат (base-layout)
+# Online chat (base-layout)
 
-Базовая верстка проекта
+Base layout of project

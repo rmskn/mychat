@@ -1,0 +1,11 @@
+@import "mixins";
+
+.inner-content {
+  @include column;
+
+  gap: 20px;
+
+  &__item_recent {
+    color: var(--primary-color);
+  }
+}

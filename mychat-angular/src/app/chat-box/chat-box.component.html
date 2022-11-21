@@ -1,11 +1,5 @@
-<div class="chat-message">
-  <div class="chat-messages-show-container">
-    <ul class="chat-messages-show-list" id="message-list">
-
-    </ul>
-    <div class="chat-messages-create-container">
-      <input type="text" class="chat-messages-create-container">
-      <button class="chat-messages-create-button" (click)="sendMessage()"></button>
-    </div>
-  </div>
-</div>
+<section class="chat-box box-scroll">
+  <app-chat-header class="box-scroll__edge-side"></app-chat-header>
+  <app-messages-list class="box-scroll__content"></app-messages-list>
+  <app-chat-footer class="box-scroll__edge-side"></app-chat-footer>
+</section>

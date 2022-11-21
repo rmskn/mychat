@@ -1,0 +1,21 @@
+@import "mixins";
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.box-scroll {
+  @include column;
+
+  height: 100vh;
+
+  &__content {
+    flex: 1 1 auto;
+    overflow-y: auto;
+  }
+
+  &__edge-side {
+    background: var(--primary-color);
+    color: var(--primary-text-color);
+  }
+}

@@ -1,0 +1,11 @@
+.threads {
+  display: flex;
+}
+.threads__header {
+  justify-content: space-between;
+}
+.threads__list {
+  margin: 0;
+}
+
+/*# sourceMappingURL=threads.component.css.map */

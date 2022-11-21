@@ -1,0 +1,19 @@
+@import "header";
+@import "button";
+
+.threads-header {
+
+  &__user-info {
+    margin: 0;
+  }
+
+  &__find-panel {
+    margin: 10px 0;
+  }
+
+  &__settings-popup {
+    position: absolute;
+    top: 60px;
+    left: 270px;
+  }
+}
