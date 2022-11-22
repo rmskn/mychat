@@ -1,0 +1,21 @@
+@import "../../../../../styles/avatar";
+@import "../../../../../styles/username";
+@import "../../../../../styles/header";
+
+.chat-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: default;
+  justify-content: left;
+
+  &__status {
+    &_online {
+      color: var(--primary-text-online-color);
+    }
+
+    &_offline {
+      color: var(--primary-text-offline-color);
+    }
+  }
+}

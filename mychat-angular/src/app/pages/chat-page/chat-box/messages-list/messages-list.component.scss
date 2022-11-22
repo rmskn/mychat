@@ -1,0 +1,12 @@
+@import "../../../../../styles/mixins";
+
+.messages-list {
+  @include column;
+
+  width: 90%;
+  margin: 0 auto;
+
+  &__message {
+    max-width: 80%;
+  }
+}

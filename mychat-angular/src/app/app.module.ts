@@ -3,19 +3,21 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ThreadsComponent } from './threads/threads.component';
-import { ChatBoxComponent } from './chat-box/chat-box.component';
-import { ThreadsHeaderComponent } from './threads-header/threads-header.component';
-import { ThreadsListComponent } from './threads-list/threads-list.component';
-import { UserInfoComponent } from './user-info/user-info.component';
-import { SettingsPopupComponent } from './settings-popup/settings-popup.component';
-import { FindPanelComponent } from './find-panel/find-panel.component';
-import { ThreadComponent } from './thread/thread.component';
-import { ChatHeaderComponent } from './chat-header/chat-header.component';
-import { MessagesListComponent } from './messages-list/messages-list.component';
-import { MessageComponent } from './message/message.component';
-import { ChatFooterComponent } from './chat-footer/chat-footer.component';
-import { SendMessageFormComponent } from './send-message-form/send-message-form.component';
+import { ThreadsComponent } from './pages/chat-page/threads/threads.component';
+import { ChatBoxComponent } from './pages/chat-page/chat-box/chat-box.component';
+import { ThreadsHeaderComponent } from './pages/chat-page/threads/threads-header/threads-header.component';
+import { ThreadsListComponent } from './pages/chat-page/threads/threads-list/threads-list.component';
+import { UserInfoComponent } from './pages/chat-page/threads/threads-header/user-info/user-info.component';
+import { SettingsPopupComponent } from './pages/chat-page/threads/threads-header/settings-popup/settings-popup.component';
+import { FindPanelComponent } from './pages/chat-page/threads/threads-header/find-panel/find-panel.component';
+import { ThreadComponent } from './pages/chat-page/threads/thread/thread.component';
+import { ChatHeaderComponent } from './pages/chat-page/chat-box/chat-header/chat-header.component';
+import { MessagesListComponent } from './pages/chat-page/chat-box/messages-list/messages-list.component';
+import { MessageComponent } from './pages/chat-page/chat-box/messages-list/message/message.component';
+import { ChatFooterComponent } from './pages/chat-page/chat-box/chat-footer/chat-footer.component';
+import { SendMessageFormComponent } from './pages/chat-page/chat-box/chat-footer/send-message-form/send-message-form.component';
+import { LoginPageComponent } from './pages/login-page/login-page.component';
+import { ChatPageComponent } from './pages/chat-page/chat-page.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { SendMessageFormComponent } from './send-message-form/send-message-form.
     MessagesListComponent,
     MessageComponent,
     ChatFooterComponent,
-    SendMessageFormComponent
+    SendMessageFormComponent,
+    LoginPageComponent,
+    ChatPageComponent
   ],
   imports: [
     BrowserModule,

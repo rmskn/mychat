@@ -1,0 +1,13 @@
+@import "src/styles/box-scroll";
+
+.threads {
+  display: flex;
+
+  &__header {
+    justify-content: space-between;
+  }
+
+  &__list {
+    margin: 0;
+  }
+}
